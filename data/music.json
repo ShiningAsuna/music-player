@@ -1,0 +1,25 @@
+{
+  "status": 200,
+  "data": [{
+    "name": "等你下课",
+    "author": "周杰伦",
+    "album": "等你下课",
+    "singer-img": "https://y.gtimg.cn/music/photo_new/T001R300x300M0000025NhlN2yWrP4.jpg?max_age=2592000",
+    "album-img": "https://y.gtimg.cn/music/photo_new/T002R300x300M000003bSL0v4bpKAx.jpg?max_age=2592000",
+    "src": "http://dl.stream.qqmusic.qq.com/C100001J5QJL1pRQYB.m4a?vkey=91A134958047EC04A21B8BFB7E9107BACB69E05A534FE40D340F735D128ADD558310154230F4BC6CE6710F441F0CB82636782DE73A72ABD4&fromtag=66"
+  },{
+    "name": "只想一生跟你走",
+    "author": "张学友",
+    "album": "我与你",
+    "singer-img": "https://y.gtimg.cn/music/photo_new/T001R300x300M000004Be55m1SJaLk.jpg?max_age=2592000",
+    "album-img": "https://y.gtimg.cn/music/photo_new/T002R300x300M000004dQKid1SiV2C.jpg?max_age=2592000",
+    "src": "http://dl.stream.qqmusic.qq.com/C1000033oxAn0LGrQy.m4a?vkey=2C481B8D7EC17B42E1B4E6F32C6A1310EC090B88B3AF10BCC7048ED36655CB5AB42D13423B73C3F631305F95B357AAB449E0A8B952D7705D&fromtag=66"
+  },{
+    "name": "The Spectre",
+    "author": "Alan Walker",
+    "album": "The Spectre",
+    "singer-img": "https://y.gtimg.cn/music/photo_new/T001R300x300M0000020PeOh4ZaCw1.jpg?max_age=2592000",
+    "album-img": "https://y.gtimg.cn/music/photo_new/T002R300x300M000002Nf4ht3NmYIO.jpg?max_age=2592000",
+    "src": "http://dl.stream.qqmusic.qq.com/C100004WYNc84TSHJ6.m4a?vkey=91B2322A18D4FF6E51F426790AAD91F3E89D33D2F08CAB7A6CEC25F1099148216F8C039740F948D5410A54469D2C071321EC03DA777ED0BF&fromtag=66"
+  }]
+}

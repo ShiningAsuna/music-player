@@ -1,0 +1,160 @@
+/* 背景图片 */
+
+.img-ct {
+  width: 100%;
+  height: 100%;
+  
+  position: absolute;
+}
+
+.album-bac {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: url('https://y.gtimg.cn/mediastyle/global/img/singer_300.png?max_age=31536000') no-repeat;
+  background-size: cover;
+  filter: blur(15px);
+  z-index: -1;
+}
+
+.album-img {
+  position: relative;
+  height: 50%;
+  margin: 5% auto 0;
+  border: 2px #ffae00 solid;
+  border-radius: calc(50%);
+  overflow: hidden;
+}
+
+/* 底部栏 */
+
+.bottom-bar {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background-color: rgba(248, 198, 214, 0.8);
+  color: #0395f7;
+}
+
+.singer-img {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background: url('https://y.gtimg.cn/mediastyle/global/img/singer_300.png?max_age=31536000') no-repeat;
+  background-size: cover;
+  left: 30px;
+  bottom: 0;
+}
+
+.progress {
+  width: 400px;
+  height: 2px;
+  position: absolute;
+  left: calc(50% - 300px);
+  bottom: 30px;
+  cursor: pointer;
+}
+
+.sum-bar {
+  width: 400px;
+  height: 2px;
+  background-color: #ece1db;
+}
+
+.cur-bar {
+  height: 2px;
+  width: 0;
+  position: relative;
+  background-color: #0395f7;
+  top: -2px;
+}
+
+.music-info {
+  position: absolute;
+  left: 200px;
+  bottom: 20px;
+  width: 250px;
+}
+
+.music-name {
+  margin-bottom: 10px;
+}
+
+.time {
+  position: absolute;
+  left: calc(50% + 130px);
+  bottom: 10px;
+}
+
+.controller {
+  position: absolute;
+  right: 280px;
+  bottom: 20px;
+}
+
+.controller .iconfont {
+  font-size: 40px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.volume i {
+  position: absolute;
+  right: 220px;
+  bottom: 24px;
+  font-size: 30px;
+}
+
+.volume-bar {
+  position: absolute;
+  bottom: 40px;
+  right: 60px;
+  width: 150px;
+  height: 2px;
+  cursor: pointer;
+}
+
+.sum-volume {
+  width: 150px;
+  height: 2px;
+  background-color: #ece1db;
+}
+
+.cur-volume {
+  height: 2px;
+  width: 150px;
+  position: relative;
+  background-color: #0395f7;
+  top: -2px;
+}
+
+/* 音乐列表 */
+
+.music-list {
+  position: absolute;
+  right: 0;
+  bottom: 120px;
+  top: 100px;
+  width: 300px;
+  background-color: rgba(248, 198, 214, 0.8);
+}
+
+.music-list li {
+  border-bottom: 2px #ece1db solid;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.music-list li:hover {
+  background-color: #8cc2e6;
+}
+
+.music-list .active {
+  color: #fff;
+  border-left: 5px #fff solid;
+  background-color: #0395f7;
+}
